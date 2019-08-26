@@ -1,0 +1,69 @@
+*{
+    font-family: monaco;
+}
+::selection{
+    background-color: black;
+}
+#introduction label::selection, #intro::selection{
+    background-color: white;
+}
+body{
+    background: linear-gradient(-135deg, #E4A972, #9941D8);
+    color: white;
+}
+.block{
+    width: 40%;
+    margin: 5%;
+    height: 60vh;
+}
+.block textarea{
+    resize: none;
+    background-color: #4a4a4a20;
+    width: 100%;
+    height: 100%;
+    font-size: 5mm;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    outline: none;
+}
+label{
+    color: white;
+    line-height: 20px;
+    padding: 0px 5px;
+    position: absolute;
+    font-size: 3mm;
+    background-color: #4a4a4a20;
+}
+.block{
+    float: left;
+    border: none;
+    outline-width: 0;
+}
+.block p{
+    padding: 20px;
+    outline-width: 0;
+}
+#intro{
+    background-color: black;
+}
+#pulsar textarea{
+    background-color: #4a4a4a4d !important;
+}
+#pulsar label{
+    background-color: #4a4a4a4d !important;
+}
+h1{
+    text-align: center;
+    font-size: 64px;
+}
+p{
+    text-align: center;
+    z-index: 1000;
+}
+@media(max-width: 1200px) {
+    .block{
+        width: 90%;
+    }
+}
