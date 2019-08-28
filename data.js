@@ -44,11 +44,11 @@ const data = {
         var text = arr[0];
         switch(language){
             case "javascript":
-                return `//${text}`;
+                return `// ${text}`;
             case "php":
             case "python":
             case "ruby":
-                return `#${text}`;
+                return `# ${text}`;
         }
     },
     if: function(arr){ //conditional
