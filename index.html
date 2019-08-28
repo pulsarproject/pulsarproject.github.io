@@ -11,11 +11,11 @@
             <h1>p u l s a r</h1>
             <div id="introduction" class="block">
                 <label>Introduction</label>
-                <textarea spellcheck="false" id="intro" contenteditable="false"></textarea>
+                <textarea spellcheck="false" id="intro" contenteditable="false" readonly></textarea>
             </div>        
             <div id="pulsar" class="block">
                 <label>Pulsar (Edit Here)</label>
-                <textarea spellcheck="false" id="pulsar-input" contenteditable="true"></textarea>
+                <textarea spellcheck="false" id="pulsar-input" contenteditable="true" onchange="trigger()"></textarea>
             </div>
             <div id="javascript" class="block">
                 <label>JavaScript (Output)</label>
